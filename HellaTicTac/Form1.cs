@@ -27,11 +27,6 @@ namespace HellaTicTac
 
         }
 
-        private void button6_Click(object sender, EventArgs e)
-        {
-
-        }
-
         private void aboutToolStripMenuItem1_Click(object sender, EventArgs e)
         {
             MessageBox.Show("By Richard", "CykaNugget");
@@ -40,6 +35,51 @@ namespace HellaTicTac
         private void exitToolStripMenuItem_Click(object sender, EventArgs e)
         {
             Application.Exit();
+        }
+
+        private void A1_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void A2_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void A3_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void B1_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void B2_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void button6_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void C1_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void C2_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void C3_Click(object sender, EventArgs e)
+        {
+
         }
     }
 }
