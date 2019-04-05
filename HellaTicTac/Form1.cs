@@ -37,6 +37,17 @@ namespace HellaTicTac
             Application.Exit();
         }
 
+        private void button_click(object sender, EventArgs e)
+        {
+            Button b = (Button)sender;
+            if (turn)
+                b.Text = "x";
+            else
+                b.Text = "o";
+
+            turn = !turn;
+        }
+
         private void A1_Click(object sender, EventArgs e)
         {
 
